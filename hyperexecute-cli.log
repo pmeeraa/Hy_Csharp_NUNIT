@@ -1,0 +1,87 @@
+{"level":"debug","time":"2023-02-27T15:25:26.696+0530","caller":"cmd/bin.go:160","msg":"HyperExecute cli version: 0.2.60"}
+{"level":"debug","time":"2023-02-27T15:25:31.193+0530","caller":"core/lifecycle.go:105","msg":"Upstream version: {Name: Min:0.2.60 Max:0.2.60} "}
+{"level":"debug","time":"2023-02-27T15:25:31.193+0530","caller":"core/lifecycle.go:123","msg":"Setting environment"}
+{"level":"debug","time":"2023-02-27T15:25:31.193+0530","caller":"core/lifecycle.go:129","msg":"Parsing config"}
+{"level":"debug","time":"2023-02-27T15:25:31.194+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Trying config: /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/hyperexecute.yaml"}
+{"level":"debug","time":"2023-02-27T15:25:31.194+0530","caller":"yamlconfigmanager/setup.go:405","msg":"Config not found /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/hyperexecute.yaml"}
+{"level":"debug","time":"2023-02-27T15:25:31.194+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Trying config: /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/hyperexecute.yml"}
+{"level":"debug","time":"2023-02-27T15:25:31.194+0530","caller":"yamlconfigmanager/setup.go:405","msg":"Config not found /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/hyperexecute.yml"}
+{"level":"debug","time":"2023-02-27T15:25:31.194+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Trying config: /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/.hyperexecute.yaml"}
+{"level":"debug","time":"2023-02-27T15:25:31.194+0530","caller":"yamlconfigmanager/setup.go:405","msg":"Config not found /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/.hyperexecute.yaml"}
+{"level":"debug","time":"2023-02-27T15:25:31.194+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Trying config: /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/.hyperexecute.yml"}
+{"level":"debug","time":"2023-02-27T15:25:31.194+0530","caller":"yamlconfigmanager/setup.go:405","msg":"Config not found /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/.hyperexecute.yml"}
+{"level":"debug","time":"2023-02-27T15:25:31.194+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Trying config: /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/.hypertest.yaml"}
+{"level":"debug","time":"2023-02-27T15:25:31.194+0530","caller":"yamlconfigmanager/setup.go:405","msg":"Config not found /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/.hypertest.yaml"}
+{"level":"debug","time":"2023-02-27T15:25:31.194+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Trying config: /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/.hypertest.yml"}
+{"level":"debug","time":"2023-02-27T15:25:31.194+0530","caller":"yamlconfigmanager/setup.go:405","msg":"Config not found /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/.hypertest.yml"}
+{"level":"error","time":"2023-02-27T15:25:31.194+0530","caller":"core/lifecycle.go:134","msg":"2023-02-27T15:25:26+05:30    error    \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    Unable to find config file. stat /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/.hypertest.yml: no such file or directory"}
+{"level":"debug","time":"2023-02-27T15:26:11.350+0530","caller":"cmd/bin.go:160","msg":"HyperExecute cli version: 0.2.60"}
+{"level":"debug","time":"2023-02-27T15:26:15.085+0530","caller":"core/lifecycle.go:105","msg":"Upstream version: {Name: Min:0.2.60 Max:0.2.60} "}
+{"level":"debug","time":"2023-02-27T15:26:15.086+0530","caller":"core/lifecycle.go:123","msg":"Setting environment"}
+{"level":"debug","time":"2023-02-27T15:26:15.086+0530","caller":"core/lifecycle.go:129","msg":"Parsing config"}
+{"level":"debug","time":"2023-02-27T15:26:15.087+0530","caller":"yamlconfigmanager/setup.go:378","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/nunit_hyperexecute_autosplit_sample.yaml"}
+{"level":"debug","time":"2023-02-27T15:26:15.087+0530","caller":"yamlconfigmanager/setup.go:68","msg":"using hyperexecute config from : yaml/win/nunit_hyperexecute_autosplit_sample.yaml"}
+{"level":"debug","time":"2023-02-27T15:26:15.462+0530","caller":"yamlconfigmanager/setup.go:1536","msg":"Autodetecting test type in files of path : /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT"}
+{"level":"debug","time":"2023-02-27T15:26:15.464+0530","caller":"yamlconfigmanager/setup.go:331","msg":"Tunnel: false"}
+{"level":"info","time":"2023-02-27T15:26:15.464+0530","caller":"models/HypertestYamlConfig.go:227","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-02-27T15:26:15.465+0530","caller":"models/HypertestYamlConfig.go:231","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-02-27T15:26:15.465+0530","caller":"models/HypertestYamlConfig.go:270","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2023-02-27T15:26:15.465+0530","caller":"models/HypertestYamlConfig.go:274","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"debug","time":"2023-02-27T15:26:15.465+0530","caller":"filevalidator/setup.go:52","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-02-27T15:26:15.465+0530","caller":"filevalidator/setup.go:56","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2023-02-27T15:26:16.564+0530","caller":"core/lifecycle.go:315","msg":"Job ID: 757b3757-191d-4884-bec2-da523f6a19e0"}
+{"level":"debug","time":"2023-02-27T15:26:16.565+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT"}
+{"level":"debug","time":"2023-02-27T15:26:16.590+0530","caller":"archivemanager/setup.go:383","msg":"Zip file size: 52KB"}
+{"level":"debug","time":"2023-02-27T15:26:16.590+0530","caller":"core/lifecycle.go:424","msg":"Archive location: /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/hyperexecute-code-757b3757-191d-4884-bec2-da523f6a19e0.zip\n"}
+{"level":"debug","time":"2023-02-27T15:26:16.590+0530","caller":"storage/azure.go:54","msg":"Payload size: 56.9 kB"}
+{"level":"debug","time":"2023-02-27T15:26:16.594+0530","caller":"utils/azcopy.go:154","msg":"Downloading dependency binary ..................."}
+{"level":"info","time":"2023-02-27T15:26:21.488+0530","caller":"utils/azcopy.go:119","msg":"\u001b[91m\u001b[32m✔\u001b[0m Dependency binary downloaded successfully\u001b[0m"}
+{"level":"debug","time":"2023-02-27T15:26:23.538+0530","caller":"receptionmanager/setup.go:166","msg":"Uploading yaml : /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-02-27T15:26:23.538+0530","caller":"storage/azure.go:54","msg":"Payload size: 1.7 kB"}
+{"level":"debug","time":"2023-02-27T15:26:26.840+0530","caller":"core/lifecycle.go:450","msg":"Successfully deleted code archive: /Users/meerap/IdeaProjects/Hy_Csharp_NUNIT/hyperexecute-code-757b3757-191d-4884-bec2-da523f6a19e0.zip\n"}
+{"level":"info","time":"2023-02-27T15:26:33.186+0530","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4m757b3757-191d-4884-bec2-da523f6a19e0\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2023-02-27T15:26:33.187+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=757b3757-191d-4884-bec2-da523f6a19e0\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-02-27T15:26:33.187+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-02-27T15:26:33.187+0530","caller":"jobmanager/setup.go:149","msg":"Task id: 203c04b6-7646-4998-897d-af24e2779232"}
+{"level":"debug","time":"2023-02-27T15:26:33.187+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 203c04b6-7646-4998-897d-af24e2779232"}
+{"level":"debug","time":"2023-02-27T15:26:33.187+0530","caller":"jobmanager/setup.go:149","msg":"Task id: 7edffc89-7815-4550-8cdd-b5277695f7d3"}
+{"level":"debug","time":"2023-02-27T15:26:33.187+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 7edffc89-7815-4550-8cdd-b5277695f7d3"}
+{"level":"info","time":"2023-02-27T15:26:51.602+0530","caller":"terminal/terminal.go:179","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (20s)\u001b[0m\n"}
+{"level":"info","time":"2023-02-27T15:26:52.860+0530","caller":"terminal/terminal.go:179","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (21s)\u001b[0m\n"}
+{"level":"info","time":"2023-02-27T15:26:55.852+0530","caller":"terminal/terminal.go:179","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2023-02-27T15:26:57.665+0530","caller":"terminal/terminal.go:179","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2023-02-27T15:27:34.624+0530","caller":"terminal/terminal.go:179","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2m\"ToDoTest\" (34s)\u001b[0m\n"}
+{"level":"info","time":"2023-02-27T15:27:37.993+0530","caller":"terminal/terminal.go:179","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpost (2s)\u001b[0m\n"}
+{"level":"info","time":"2023-02-27T15:27:43.418+0530","caller":"terminal/terminal.go:179","msg":"\u001b[91mx\u001b[0m [1]  \u001b[2m\"SeleniumPlayGround\" (41s)\u001b[0m\n"}
+{"level":"info","time":"2023-02-27T15:28:09.591+0530","caller":"terminal/terminal.go:179","msg":"\u001b[91mx\u001b[0m [1] \u001b[2m {retry 1}\u001b[0m \u001b[2m\"SeleniumPlayGround\" (24s)\u001b[0m\n"}
+{"level":"debug","time":"2023-02-27T15:28:18.131+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2023-02-27T15:28:18.132+0530","caller":"core/lifecycle.go:517","msg":"taskId:203c04b6-7646-4998-897d-af24e2779232 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2023-02-27T15:28:18.132+0530","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n\u001b[101m FAILED \u001b[0m\n"}
+{"level":"info","time":"2023-02-27T15:28:18.132+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[91m53s\u001b[0m"}
+{"level":"info","time":"2023-02-27T15:28:18.132+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    1m49s"}
+{"level":"info","time":"2023-02-27T15:28:18.132+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          2"}
+{"level":"info","time":"2023-02-27T15:28:18.132+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             3m5s"}
+{"level":"info","time":"2023-02-27T15:28:18.132+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTotal Stages\u001b[0m:                         8"}
+{"level":"info","time":"2023-02-27T15:28:18.132+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      100.00%"}
+{"level":"info","time":"2023-02-27T15:28:18.133+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"info","time":"2023-02-27T15:28:18.133+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2023-02-27T15:28:18.133+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"info","time":"2023-02-27T15:28:18.133+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           50.00%"}
+{"level":"info","time":"2023-02-27T15:28:18.133+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed test stage percentage\u001b[0m:         \u001b[91m50.00%\u001b[0m"}
+{"level":"info","time":"2023-02-27T15:28:18.133+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass post stage percentage\u001b[0m:           50.00%"}
+{"level":"info","time":"2023-02-27T15:28:18.133+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed post stage percentage\u001b[0m:         \u001b[91m50.00%\u001b[0m"}
+{"level":"info","time":"2023-02-27T15:28:18.133+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed Tasks\u001b[0m:                         1"}
+{"level":"info","time":"2023-02-27T15:28:18.133+0530","caller":"jobmanager/JobSummaryManager.go:42","msg":""}
+{"level":"debug","time":"2023-02-27T15:28:18.489+0530","caller":"artifactsmanager/downloadv0.1.go:104","msg":"\nArtifacts ready to be downloaded for task id: 203c04b6-7646-4998-897d-af24e2779232\n"}
+{"level":"debug","time":"2023-02-27T15:28:18.788+0530","caller":"artifactsmanager/downloadv0.1.go:138","msg":"\nDownloading artefacts for task id: 203c04b6-7646-4998-897d-af24e2779232\n"}
+{"level":"debug","time":"2023-02-27T15:28:26.195+0530","caller":"artifactsmanager/downloadv0.1.go:140","msg":"\nDownloading artefacts completed for task id: 203c04b6-7646-4998-897d-af24e2779232\n"}
+{"level":"debug","time":"2023-02-27T15:28:26.485+0530","caller":"artifactsmanager/downloadv0.1.go:104","msg":"\nArtifacts ready to be downloaded for task id: 7edffc89-7815-4550-8cdd-b5277695f7d3\n"}
+{"level":"debug","time":"2023-02-27T15:28:26.782+0530","caller":"artifactsmanager/downloadv0.1.go:138","msg":"\nDownloading artefacts for task id: 7edffc89-7815-4550-8cdd-b5277695f7d3\n"}
+{"level":"debug","time":"2023-02-27T15:28:32.000+0530","caller":"artifactsmanager/downloadv0.1.go:140","msg":"\nDownloading artefacts completed for task id: 7edffc89-7815-4550-8cdd-b5277695f7d3\n"}
+{"level":"debug","time":"2023-02-27T15:28:32.000+0530","caller":"core/lifecycle.go:590","msg":"Context cancelled"}
+{"level":"info","time":"2023-02-27T15:28:32.000+0530","caller":"core/lifecycle.go:593","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2023-02-27T15:28:32.001+0530","caller":"core/lifecycle.go:596","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-02-27T15:28:32.001+0530","caller":"core/lifecycle.go:597","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-02-27T15:28:32.001+0530","caller":"core/lifecycle.go:599","msg":"All goroutines exited"}
+{"level":"info","time":"2023-02-27T15:28:32.001+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=757b3757-191d-4884-bec2-da523f6a19e0\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-02-27T15:28:33.525+0530","caller":"cmd/bin.go:195","msg":"main: all goroutines have finished."}
