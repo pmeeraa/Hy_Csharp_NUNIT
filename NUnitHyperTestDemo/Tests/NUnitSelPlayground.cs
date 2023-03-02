@@ -80,6 +80,11 @@ namespace NUnitSeleniumPlayground
             capabilities.SetCapability("user", NUnitToDo.NUnitSeleniumSample.LT_USERNAME);
             capabilities.SetCapability("accessKey", NUnitToDo.NUnitSeleniumSample.LT_ACCESS_KEY);
 
+              capabilities.SetCapability("network", true);
+                        capabilities.SetCapability("console", true);
+                        capabilities.SetCapability("tunnel", true);
+                        capabilities.SetCapability("terminal", true);
+
             capabilities.SetCapability("name",
             String.Format("{0}:{1}",
             TestContext.CurrentContext.Test.ClassName,
