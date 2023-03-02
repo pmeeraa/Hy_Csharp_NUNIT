@@ -146,17 +146,7 @@ namespace NUnitSeleniumPlayground
             IWebElement submit_button = driver.Value.FindElement(By.CssSelector(".btn"));
             submit_button.Click();
 
-            /* Assert if the page contains a certain text */
-            bool bValue = driver.Value.PageSource.Contains("Thanks for contacting us, we will get back to you shortly");
 
-            if (bValue)
-            {
-                Console.WriteLine("Input Form Demo successful");
-            }
-            else
-            {
-                Console.WriteLine("Input Form Demo failed");
-            }
         }
 
         [OneTimeTearDown]
