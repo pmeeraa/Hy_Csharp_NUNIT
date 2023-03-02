@@ -1,0 +1,191 @@
+{
+    "id": "7e4d4ae2-ed56-4b62-ac45-55b9b3305a2f",
+    "created_at": "2023-03-02T12:49:41Z",
+    "update_at": "2023-03-02T12:51:28Z",
+    "global_timeout": 150,
+    "tunnel_name": "",
+    "start_time": "2023-03-02T12:49:50Z",
+    "end_time": "2023-03-02T12:51:28Z",
+    "summary": {
+        "total_time": 98000000000,
+        "execution_time": 98000000000,
+        "total_tasks": 2,
+        "build_time_consumed": 195000000000,
+        "jobTestExecutionTime": "0s",
+        "failed_tasks": 2,
+        "total_stage_info": {
+            "postrun": {
+                "StageFailedPercent": 100,
+                "StagePassPercent": 0,
+                "TotalStage": 2
+            },
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 2
+            },
+            "scenario": {
+                "StageFailedPercent": 100,
+                "StagePassPercent": 0,
+                "TotalStage": 2
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 2
+            }
+        },
+        "status": "failed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=7e4d4ae2-ed56-4b62-ac45-55b9b3305a2f"
+    },
+    "tasks": [
+        {
+            "id": "62861318-218a-47d7-b10e-bb707cda8920",
+            "os": "win",
+            "status": "failed",
+            "remark": "error in running test suites - step 1 - exit status 1",
+            "debug": false,
+            "created_at": "2023-03-02T12:49:49Z",
+            "update_at": "2023-03-02T12:51:27Z",
+            "start_time": "2023-03-02T12:49:50Z",
+            "end_time": "2023-03-02T12:51:27Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "0ee38bdc-dd9f-4fff-b8cd-1e988b34d43f",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-03-02T12:49:51Z",
+                    "started_at": "2023-03-02T12:49:52Z",
+                    "updated_at": "2023-03-02T12:50:45Z",
+                    "order": 1
+                },
+                {
+                    "id": "3dd655ae-fc2f-403d-af5b-729dce650a3b",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2023-03-02T12:50:47Z",
+                    "started_at": "2023-03-02T12:50:48Z",
+                    "updated_at": "2023-03-02T12:50:50Z",
+                    "order": 2
+                },
+                {
+                    "id": "be9dabf7-1964-4d31-87fd-667a3d700f9a",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "\"SeleniumPlayGround\"",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-03-02T12:50:52Z",
+                    "started_at": "2023-03-02T12:50:55Z",
+                    "updated_at": "2023-03-02T12:51:16Z",
+                    "order": 3
+                },
+                {
+                    "id": "8bfca246-c254-446b-b5b9-4342a4db06c3",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "\"SeleniumPlayGround\"",
+                    "iteration": 1,
+                    "link": "command.1.1.log",
+                    "created_at": "2023-03-02T12:51:18Z",
+                    "started_at": "2023-03-02T12:51:18Z",
+                    "updated_at": "2023-03-02T12:51:21Z",
+                    "order": 3
+                },
+                {
+                    "id": "b064a852-12d6-4e42-9fa9-0da4d3e14973",
+                    "type": "postrun",
+                    "status": "cancelled",
+                    "name": "post",
+                    "iteration": 0,
+                    "link": "",
+                    "created_at": "2023-03-02T12:50:52Z",
+                    "started_at": "2023-03-02T12:51:27Z",
+                    "updated_at": "2023-03-02T12:51:27Z",
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "id": "3ae992ed-1a52-4fa9-a3c8-f5d1a38d4f98",
+            "os": "win",
+            "status": "failed",
+            "remark": "error in running test suites - step 1 - exit status 1",
+            "debug": false,
+            "created_at": "2023-03-02T12:49:49Z",
+            "update_at": "2023-03-02T12:51:28Z",
+            "start_time": "2023-03-02T12:49:50Z",
+            "end_time": "2023-03-02T12:51:28Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "f8eff200-1a71-4ac9-bd8b-c31dcad3ff3a",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-03-02T12:49:51Z",
+                    "started_at": "2023-03-02T12:49:52Z",
+                    "updated_at": "2023-03-02T12:50:50Z",
+                    "order": 1
+                },
+                {
+                    "id": "0330caaa-53e1-4fb1-aa95-e14600dff6c7",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2023-03-02T12:50:52Z",
+                    "started_at": "2023-03-02T12:50:53Z",
+                    "updated_at": "2023-03-02T12:50:55Z",
+                    "order": 2
+                },
+                {
+                    "id": "25524193-ee34-4244-accd-faeaeca45f5e",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "\"ToDoTest\"",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-03-02T12:50:57Z",
+                    "started_at": "2023-03-02T12:51:00Z",
+                    "updated_at": "2023-03-02T12:51:17Z",
+                    "order": 3
+                },
+                {
+                    "id": "51ea96c5-fa37-48c7-892a-be2e99108ca9",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "\"ToDoTest\"",
+                    "iteration": 1,
+                    "link": "command.1.1.log",
+                    "created_at": "2023-03-02T12:51:19Z",
+                    "started_at": "2023-03-02T12:51:19Z",
+                    "updated_at": "2023-03-02T12:51:22Z",
+                    "order": 3
+                },
+                {
+                    "id": "0ca863c1-5e74-45bd-abd3-78b25cbfa9e6",
+                    "type": "postrun",
+                    "status": "cancelled",
+                    "name": "post",
+                    "iteration": 0,
+                    "link": "",
+                    "created_at": "2023-03-02T12:50:57Z",
+                    "started_at": "2023-03-02T12:51:28Z",
+                    "updated_at": "2023-03-02T12:51:28Z",
+                    "order": 4
+                }
+            ]
+        }
+    ]
+}

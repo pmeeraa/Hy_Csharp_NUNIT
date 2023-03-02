@@ -1,0 +1,49 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitSelPlayground.cs(74,13): warning CS0618: 'DesiredCapabilities' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs(71,13): warning CS0618: 'DesiredCapabilities' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs(71,52): warning CS0618: 'DesiredCapabilities' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs(71,48): warning CS0618: 'DesiredCapabilities.DesiredCapabilities()' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs(72,13): warning CS0618: 'DesiredCapabilities.SetCapability(string, object)' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs(73,13): warning CS0618: 'DesiredCapabilities.SetCapability(string, object)' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs(74,13): warning CS0618: 'DesiredCapabilities.SetCapability(string, object)' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs(75,13): warning CS0618: 'DesiredCapabilities.SetCapability(string, object)' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs(77,13): warning CS0618: 'DesiredCapabilities.SetCapability(string, object)' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs(78,13): warning CS0618: 'DesiredCapabilities.SetCapability(string, object)' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs(80,13): warning CS0618: 'DesiredCapabilities.SetCapability(string, object)' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitSelPlayground.cs(74,52): warning CS0618: 'DesiredCapabilities' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitSelPlayground.cs(74,48): warning CS0618: 'DesiredCapabilities.DesiredCapabilities()' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitSelPlayground.cs(75,13): warning CS0618: 'DesiredCapabilities.SetCapability(string, object)' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitSelPlayground.cs(76,13): warning CS0618: 'DesiredCapabilities.SetCapability(string, object)' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitSelPlayground.cs(77,13): warning CS0618: 'DesiredCapabilities.SetCapability(string, object)' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitSelPlayground.cs(78,13): warning CS0618: 'DesiredCapabilities.SetCapability(string, object)' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitSelPlayground.cs(80,13): warning CS0618: 'DesiredCapabilities.SetCapability(string, object)' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitSelPlayground.cs(81,13): warning CS0618: 'DesiredCapabilities.SetCapability(string, object)' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitSelPlayground.cs(83,13): warning CS0618: 'DesiredCapabilities.SetCapability(string, object)' is obsolete: 'Use of DesiredCapabilities has been deprecated in favor of browser-specific Options classes' [D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\NUnitHyperTestDemo.csproj]
+  NUnitHyperTestDemo -> D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\bin\Debug\netcoreapp3.1\NUnitHyperTestDemo.dll
+Test run for D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\bin\Debug\netcoreapp3.1\NUnitHyperTestDemo.dll (.NETCoreApp,Version=v3.1)
+Microsoft (R) Test Execution Command Line Tool Version 16.11.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+  Failed SeleniumPlayGroundTest [34 s]
+  Error Message:
+   OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button type="submit" class="btn btn-dark selenium_btn bg-black text-white hover:bg-lambda-900 py-5 px-10 rounded">...</button> is not clickable at point (1333, 932). Other element would receive the click: <div id="exit_popup_dismissed" style="display: block; position: fixed; inset: 0px; background: rgba(0, 0, 0, 0.7); z-index: 99999; transition: all 0.3s ease 0s;">...</div>
+  (Session info: chrome=108.0.5359.72)
+  Stack Trace:
+     at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at NUnitSeleniumPlayground.NUnitSeleniumSample2.SeleniumPlayGroundTest() in D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitSelPlayground.cs:line 147
+  Standard Output Messages:
+ OpenQA.Selenium.Remote.RemoteWebDriver
+ Navigating to Selenium Playground
+ Current URL is https://www.lambdatest.com/selenium-playground/input-form-demo
+
+
+
+Failed!  - Failed:     1, Passed:     1, Skipped:     0, Total:     2, Duration: 35 s - NUnitHyperTestDemo.dll (netcoreapp3.1)
+Command Failed

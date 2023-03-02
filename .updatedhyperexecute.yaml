@@ -1,0 +1,62 @@
+version: "0.1"
+user: meerap
+key: I9ADikrjXtd5i0yOXOtjmRQRSpcA5ng6PxIvHwEuWvNtQ8CTWd
+testSuites: []
+pre: [dotnet list $project package > packages.txt, nuget locals all -clear, dotnet
+    build -c Release]
+preDirectives:
+  commands: [dotnet list $project package > packages.txt, nuget locals all -clear,
+    dotnet build -c Release]
+  maxRetries: 0
+  shell: ""
+  workingDirectory: ""
+post: [cat yaml/win/nunit_hyperexecute_autosplit_sample.yaml]
+postDirectives:
+  commands: [cat yaml/win/nunit_hyperexecute_autosplit_sample.yaml]
+  shell: ""
+  workingDirectory: ""
+env:
+  NUGET_HTTP_CACHE_PATH: C:\nuget_http_cache
+  NUGET_PACKAGES: C:\nuget_global_cache
+  NUGET_PLUGINS_CACHE_PATH: C:\nuget_plugins_cache
+runson: win
+autosplit: true
+concurrency: 2
+testDiscovery:
+  autosubset: true
+  command: grep 'Category' NUnitHyperTestDemo -ir --include=\*.cs --exclude=DriverFactory.cs
+    --exclude=HyperTestDemo.AssemblyInfo.cs | awk '{print$2}' | grep -o '".*"'
+  mode: dynamic
+  type: raw
+testRunnerCommand: dotnet test $solution --filter TestCategory=$test
+globalTimeout: 150
+testSuiteTimeout: 150
+testSuiteStep: 150
+retryOnFailure: true
+maxRetries: 1
+jobID: 7e4d4ae2-ed56-4b62-ac45-55b9b3305a2f
+mergeArtifacts: true
+uploadArtefacts:
+- name: ExecutionSnapshots
+  path:
+  - NUnitHyperTestDemo/Reports/**
+codeDirectory: Hy_Csharp_NUNIT
+framework:
+  name: ""
+  flags: []
+  discoveryFlags: []
+  discoveryType: ""
+  runnerFlags: []
+  workingDirectory: ""
+  isTestNGXMLSuite: false
+  defaultReports: true
+  additional_args: null
+  licenseKey: ""
+  userdefinediscovery: false
+cypress: false
+betaFeature:
+  setPartiallyCompletedAsCompleted: false
+combineTasksInMatrixMode: false
+captureScreenRecordingForScenarios: false
+maxRetriesPreSteps: 0
+triggerMode: false

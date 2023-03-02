@@ -1,0 +1,40 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NUnitHyperTestDemo -> D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\bin\Debug\netcoreapp3.1\NUnitHyperTestDemo.dll
+Test run for D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\bin\Debug\netcoreapp3.1\NUnitHyperTestDemo.dll (.NETCoreApp,Version=v3.1)
+Microsoft (R) Test Execution Command Line Tool Version 16.11.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+  Failed Todotest [173 ms]
+  Error Message:
+   OpenQA.Selenium.WebDriverException : Either tunnel is not runing or disconnected.
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.
+  Stack Trace:
+     at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities, TimeSpan commandTimeout)
+   at NUnitToDo.NUnitSeleniumSample.Init() in D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs:line 88
+--TearDown
+   at NUnitToDo.NUnitSeleniumSample.Capture(IWebDriver driver, String screenShotName) in D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs:line 197
+   at NUnitToDo.NUnitSeleniumSample.Cleanup() in D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs:line 149
+  Failed Todotest [172 ms]
+  Error Message:
+   OpenQA.Selenium.WebDriverException : Either tunnel is not runing or disconnected.
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.
+  Stack Trace:
+     at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities, TimeSpan commandTimeout)
+   at NUnitToDo.NUnitSeleniumSample.Init() in D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs:line 88
+--TearDown
+   at NUnitToDo.NUnitSeleniumSample.Capture(IWebDriver driver, String screenShotName) in D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs:line 197
+   at NUnitToDo.NUnitSeleniumSample.Cleanup() in D:\foreman\Hy_Csharp_NUNIT\NUnitHyperTestDemo\Tests\NUnitToDoTest.cs:line 149
+
+Failed!  - Failed:     2, Passed:     0, Skipped:     0, Total:     2, Duration:  - NUnitHyperTestDemo.dll (netcoreapp3.1)
+Command Failed
